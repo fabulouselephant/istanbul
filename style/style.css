@@ -1,0 +1,101 @@
+html {
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFAF0;
+  font-family: sans-serif
+}
+@font-face {
+  font-family: 'Arabic';
+  src: url('Arabic.ttf');
+}
+.head {
+  overflow: hidden;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('photo/bazar.jpg');
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.photo {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.text {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  display: table;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: justify;
+  font-size: 1.5vw;
+  line-height: 3vw;
+}
+.header_photo {
+  display: table;
+  width: 100%;
+  min-height: 100%;
+  margin-top: 220px;
+}
+#header_text {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  font-family: 'Arabic';
+  text-align: center;
+  text-shadow: 1px 2px 2px grey, 0 0 1em grey;
+  font-size: 12vw;
+  color: #CEF6E3;
+}
+.social {
+ margin:5px;
+}
+
+.fb-like {
+  display: block;
+  float: left;
+}
+.gallery {
+  width: 100%;
+  margin:30px auto;
+}
+
+.gallery a img {
+ border: 5px solid #FFFAF0;
+ display: block;
+ position: relative;
+ width: -webkit-calc(50% - 5px);
+ z-index: 1;
+ float: left;
+
+ -moz-user-select: none;
+ -khtml-user-select: none;
+ user-select: none;
+ 
+ -moz-box-sizing:border-box;
+ -webkit-box-sizing:border-box;
+  box-sizing: border-box;
+
+ -webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+ -webkit-transition-duration:0.5s;
+ -moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+ -moz-transition-duration:0.5s;
+ -o-transition-property:width, height, top, bottom, left, right, z-index, border;
+ -o-transition-duration:0.5s;
+ transition-property:width, height, top, bottom, left, right, z-index, border;
+ transition-duration:0.5s;
+ }
+
